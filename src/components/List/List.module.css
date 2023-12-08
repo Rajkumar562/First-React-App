@@ -1,0 +1,7 @@
+.list-group{
+    list-style: none;
+    padding: 0;
+}
+
+/* module is used here to remove conflicts while declaring a same property in different files. module creates the 
+property for each local file so there is no clash while creating a property of same name in different files.*/
